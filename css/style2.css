@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+html,body {
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+header {
+    height: 200px;
+    padding: 20px 0;
+}
+
+.logo {
+    width: 50%;
+}
+
+.menu {
+    padding-top: 30px;
+    width: 50%;
+    text-align: right;
+} 
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+section.principal {
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.extras {
+    position: absolute;
+    bottom: -450px;
+    right: -500px;
+    width: 1200px;
+    height: 1200px;
+    border-radius: 50%;
+    background-color: #006439;
+}
+
+.socialMedia {
+    position: absolute;
+    right: 520px;
+    top: 200px;
+} 
+
+.socialMedia img {
+    display: block;
+    width: 40px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.socialMedia a {
+    cursor: pointer;
+}
+
+.texto-sobre {
+    margin-top: 100px;
+}
+
+.texto-sobre h1 {
+    font-size: 50px;
+}
+
+.texto-sobre h1 #destaque {
+    color: #006439;
+}
+
+.texto-sobre p {
+    margin: 20px 0;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 500px;
+}
+
+.texto-sobre button {
+    border: 0;
+    background-color: #006439;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
